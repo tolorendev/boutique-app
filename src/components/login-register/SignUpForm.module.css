@@ -1,0 +1,19 @@
+.card {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+.form input {
+  border-radius: 0;
+  padding: 16px 12px !important;
+  margin-bottom: -1px;
+}
+
+.form input:focus {
+  position: relative;
+  z-index: 5;
+}
+
+.form p {
+  text-decoration: none;
+}

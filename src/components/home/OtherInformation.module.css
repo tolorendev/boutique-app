@@ -1,0 +1,47 @@
+/* ================================== */
+/* Other Information area */
+/* ================================== */
+.otherInfo > .info {
+  background-color: #f8f9fa;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.otherInfo span {
+  font-style: italic;
+  font-size: 14px;
+  color: #777;
+}
+
+.otherInfo h4 {
+  font-style: italic;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+.otherInfo h3 {
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 4px;
+  letter-spacing: 1px;
+}
+.otherInfo button {
+  border-radius: 0;
+  font-style: italic;
+}
+
+/* ================================== */
+/* Responsive styles */
+/* ================================== */
+@media (max-width: 767.98px) {
+  .otherInfo span {
+    line-height: 1.5;
+    display: block;
+  }
+  .otherInfo h4 {
+    font-size: 20px;
+  }
+  .otherInfo h3 {
+    font-size: 24px;
+    letter-spacing: 0.4px;
+  }
+}

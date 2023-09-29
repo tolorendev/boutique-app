@@ -1,0 +1,24 @@
+/* ================================== */
+/* Shop Navigation Menu */
+/* ================================== */
+.navMenu {
+  font-style: italic;
+}
+.navMenu ul {
+  border-radius: 0;
+}
+.navMenu ul li {
+  border: 0 !important;
+  color: #999;
+}
+
+.navMenu ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navMenu li.heading {
+  background-color: var(--bg-gray-2);
+  font-weight: 500;
+  color: #111;
+}

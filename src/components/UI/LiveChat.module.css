@@ -1,0 +1,140 @@
+/* ======================= */
+/* Popup window */
+/* ======================= */
+.liveChat {
+  position: fixed;
+  right: 48px;
+  bottom: 120px;
+  z-index: 99;
+  width: 400px;
+  max-width: 90vw;
+  max-height: 90vh;
+  animation: rotate 0.8s, fade-in 0.8s;
+}
+
+.liveChat > div {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 24px rgba(99, 99, 99, 0.4);
+  border: 0;
+}
+
+.liveChat button {
+  border-radius: 0;
+  background-color: #eee;
+  border: 0;
+}
+.liveChat button:hover {
+  background-color: #ddd;
+  box-shadow: 0 !important;
+  border: 0;
+}
+
+.chatWindow {
+  overflow-y: scroll;
+  height: 300px;
+  max-height: 60vh;
+}
+
+.adminChat p,
+.userChat p {
+  padding: 8px;
+  font-style: italic;
+  display: inline-block;
+  max-width: 70%;
+}
+
+.userChat p {
+  background-color: #74c0fc;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.adminChat p {
+  background-color: #f1f1f1;
+  color: #777;
+  border-radius: 4px;
+}
+
+.liveChat img {
+  width: 36px;
+  margin-right: 8px;
+  height: auto;
+}
+
+.liveChat textarea:focus {
+  box-shadow: none;
+}
+
+.liveChat svg {
+  fill: #999;
+  font-size: 24px;
+  margin-right: 8px;
+}
+.liveChat svg:last-child {
+  fill: #74c0fc;
+}
+
+/* ======================= */
+/*  Icon -> Toggle chat popup */
+/* ======================= */
+.chatIcon {
+  position: fixed;
+  z-index: 999;
+  bottom: 36px;
+  right: 36px;
+  padding: 6px;
+  border-radius: 50%;
+  background-color: #333;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(99, 99, 99, 0.4);
+  transition: ease 0.1s;
+}
+
+.chatIcon:hover {
+  transform: scale(1.1);
+}
+
+.chatIcon svg {
+  fill: #fff;
+  height: 36px;
+  width: autos;
+}
+
+@keyframes rotate {
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  90% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ======================= */
+/* Responseive Styles */
+/* ======================= */
+@media (max-width: 575.98px) {
+  .liveChat {
+    right: 24px;
+    bottom: 120px;
+  }
+
+  .chatIcon {
+    right: 24px;
+  }
+}

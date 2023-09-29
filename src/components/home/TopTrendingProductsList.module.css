@@ -1,0 +1,32 @@
+/* ================================== */
+/* ToptrendingProducts area */
+/* ================================== */
+.products span {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  color: #777;
+  letter-spacing: 2px;
+}
+
+.products h3 {
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+/* ================================== */
+/* RESPONSIVE STYLES */
+/* ================================== */
+
+@media (max-width: 767.98px) {
+  .products span {
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  .products h3 {
+    font-size: 20px;
+    letter-spacing: 0.4px;
+  }
+}

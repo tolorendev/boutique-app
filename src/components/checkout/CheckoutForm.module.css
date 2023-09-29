@@ -1,0 +1,58 @@
+.form {
+  letter-spacing: 1px;
+}
+
+.form .form-group {
+  margin-bottom: 24px;
+}
+
+.form label {
+  font-size: 18px;
+  color: #333;
+}
+
+.form input {
+  border-radius: 0;
+  padding: 12px;
+}
+
+.form input::placeholder {
+  color: #777;
+}
+
+.form .error {
+  color: #c92a2a;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.form button {
+  padding: 8px 24px;
+  border-radius: 0;
+  font-size: 20px;
+  color: #eee;
+  font-style: italic;
+}
+
+@media (max-width: 575.98px) {
+  .form .form-group {
+    margin-bottom: 16px;
+  }
+  .form label,
+  .form input {
+    font-size: 16px;
+  }
+
+  .form input {
+    padding: 8px;
+  }
+  .form .error {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+  .form button {
+    padding: 6px 12px;
+    font-size: 16px;
+  }
+}

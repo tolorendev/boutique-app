@@ -1,0 +1,43 @@
+.popup {
+  position: fixed;
+  z-index: 999;
+  width: 300px;
+  max-width: 100%;
+
+  background-color: rgba(5, 18, 31, 0.9);
+  left: 50%;
+
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 16px;
+  box-shadow: 0 0 16px rgba(99, 99, 99, 0.3);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fade-in 0.3s;
+}
+
+.popup .icon {
+  fill: #37b24d;
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.popup h3 {
+  color: #fff;
+}
+
+.popup p {
+  color: #fff;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

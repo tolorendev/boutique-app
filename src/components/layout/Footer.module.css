@@ -1,0 +1,23 @@
+/* ================================== */
+/* Footer area */
+/* ================================== */
+.footer {
+  padding: 36px 0;
+  font-style: italic;
+}
+.footer ul {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer a {
+  color: #eee;
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+.footer a:hover,
+.footer a:active {
+  color: #a7a7a7;
+}

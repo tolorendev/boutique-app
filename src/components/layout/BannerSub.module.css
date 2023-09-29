@@ -1,0 +1,18 @@
+.banner > div > div {
+  height: 300px;
+  background-color: var(--bg-gray-2);
+  padding-top: 70px;
+}
+
+.banner h2 {
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.banner h5 {
+  color: #999;
+  letter-spacing: 1px;
+}
+
+/* ======================= */
+/* Responsive Styles */
+/* ======================= */

@@ -1,0 +1,29 @@
+/* ======================== */
+/* Cart Total */
+/* ======================== */
+.cartTotal {
+  background-color: var(--bg-gray-2);
+  padding: 24px 16px;
+}
+.cartTotal ul li {
+  background-color: transparent;
+  border-bottom: 1px solid #777;
+}
+.cartTotal input {
+  border-radius: 0;
+  padding: 12px;
+}
+
+.cartTotal button {
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  color: #eee;
+}
+
+.cartTotal button .icon {
+  fill: #eee;
+  margin-right: 4px;
+}

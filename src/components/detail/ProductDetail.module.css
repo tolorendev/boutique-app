@@ -1,0 +1,124 @@
+/* ============================
+ Product Basic Information
+============================= */
+.basicInfo {
+  font-size: 18px;
+}
+
+.imgSmall-container {
+  padding: 4px;
+  outline: 1.5px #ddd solid;
+}
+
+.imgSmall-container.active {
+  outline: 1.5px #e67700 solid;
+}
+
+.basicInfo img.imgSmall {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+.price {
+  font-size: 24px;
+  color: #777;
+  font-style: italic;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.description {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.category b {
+  color: #444;
+}
+.category span {
+  color: #777;
+}
+
+.basicInfo form span {
+  color: #777;
+}
+
+.basicInfo form > div > button {
+  font-size: 18px;
+  font-style: italic;
+  color: #ddd;
+  border-radius: 0 !important;
+}
+
+/* ============================
+ Product Description
+============================= */
+
+.long-decs button {
+  border-radius: 0;
+  color: #ddd;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  font-size: 18px !important;
+}
+.long-decs p {
+  color: #777;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.long-decs p:first-child {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/* ============================
+  Responsive Styles
+============================= */
+@media (max-width: 575.98px) {
+  .name {
+    font-size: 28px;
+  }
+  .price {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 14px;
+  }
+
+  .basicInfo form span {
+    font-size: 16px;
+  }
+
+  .basicInfo form > div > button {
+    font-size: 16px;
+  }
+
+  .basicInfo form .numberInput {
+    font-size: 14px;
+  }
+
+  .long-decs button {
+    padding: 8px 16px;
+    font-size: 16px !important;
+  }
+  .long-decs p {
+    font-size: 14px;
+  }
+
+  .long-decs p:first-child {
+    font-size: 16px;
+  }
+}

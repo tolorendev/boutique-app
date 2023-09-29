@@ -1,0 +1,72 @@
+/* ================================== */
+/*.banner  */
+/* ================================== */
+.banner {
+  font-style: italic;
+  padding-top: 48px;
+}
+
+.banner > div {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-position: center !important;
+  background-size: 100% !important;
+}
+
+.banner span {
+  font-size: 18px;
+  color: #777;
+  letter-spacing: 2px;
+}
+.banner h3 {
+  font-size: 44px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 16px !important;
+  line-height: 1.1 !important;
+}
+.banner button {
+  padding: 6px 20px !important;
+  border-radius: 0 !important;
+  font-size: 18px;
+  font-style: italic;
+  color: #eee;
+  letter-spacing: 0.8px;
+}
+
+/* ================================= */
+/* RESPONSIVE STYLES */
+/* ================================= */
+
+/* Tablet */
+@media (max-width: 991.98px) {
+  .banner > div {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .banner span {
+    font-size: 16px;
+  }
+
+  .banner h3 {
+    font-size: 36px;
+  }
+
+  .banner button {
+    font-size: 16px;
+  }
+}
+
+/* Phone (landscape) */
+@media (max-width: 767.98px) {
+  .banner > div {
+    background-size: 150% !important;
+  }
+  .banner h3 {
+    font-size: 36px;
+  }
+
+  .banner button {
+    font-size: 14px;
+  }
+}

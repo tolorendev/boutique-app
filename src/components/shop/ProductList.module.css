@@ -1,0 +1,19 @@
+.searchInput {
+  margin-bottom: 8px;
+}
+.searchInput input {
+  border: 1px solid #888;
+}
+.menuToggler button {
+  border: 1px solid #aaa;
+}
+.menuToggler button:hover svg {
+  fill: #fff;
+}
+
+.dropdown {
+  font-size: 14px;
+}
+.icon {
+  font-size: 12px;
+}

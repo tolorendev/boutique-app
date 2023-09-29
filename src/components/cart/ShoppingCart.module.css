@@ -1,0 +1,39 @@
+/* ======================== */
+/* Cart */
+/* ======================== */
+
+.cart .header,
+.actions {
+  background-color: var(--bg-gray-2);
+}
+
+/* ======================== */
+/* Actions (Buttons navigate) */
+/* ======================== */
+.actions {
+  margin-bottom: 24px;
+}
+.actions button {
+  border-radius: 0;
+  padding: 0 12px;
+  font-weight: 500;
+}
+
+.actions button.btn-continueShopping:hover {
+  color: orange;
+}
+.actions button.btn-checkout {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  padding: 4px 8px;
+}
+
+.actions a {
+  text-decoration: none;
+  color: inherit;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+/* ======================== */
+/* Responsive Styles */
+/* ======================== */
